@@ -69,8 +69,12 @@ export default function Home() {
             >
               GitHub
             </a>
-
-            <a href="mailto:christutor089@gmail.com">Request Resume</a>
+            <a
+              href="mailto:christutor089@gmail.com"
+              className="hover:text-white transition"
+            >
+              Request Resume
+            </a>
 
             <a
               href="mailto:christutor089@gmail.com"
