@@ -1,9 +1,6 @@
-import { Analytics } from "@vercel/analytics/next";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-12">
-      <Analytics />
       <div className="max-w-4xl mx-auto">
         {/* Hero */}
         <section className="mb-20">
@@ -34,19 +31,32 @@ export default function Home() {
                 architecture, domain-driven thinking, and strict workflow rules.
               </p>
 
-              <a
-                href="/work-order-desk"
-                className="text-blue-400 hover:underline"
-              >
-                View Case Study →
-              </a>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="/work-order-desk"
+                  className="text-blue-400 hover:underline"
+                >
+                  View Case Study →
+                </a>
+
+                <a
+                  href="https://github.com/pherpher089/work-order-desk-web"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  GitHub →
+                </a>
+              </div>
             </div>
           </div>
         </section>
+
+        {/* Game Development */}
         <section className="mb-20">
           <h2 className="text-2xl font-semibold mb-6">Game Development</h2>
 
-          <div className="border border-gray-800 p-6 rounded-xl">
+          <div className="border border-gray-800 p-6 rounded-xl hover:border-gray-600 transition">
             <h3 className="text-xl font-semibold mb-2">
               Wilds of the Realmwalker
             </h3>
@@ -70,6 +80,8 @@ export default function Home() {
 
             <a
               href="https://store.steampowered.com/app/3800480/Wilds_of_the_Realmwalker/"
+              target="_blank"
+              rel="noreferrer"
               className="text-blue-400 hover:underline"
             >
               View Project →
@@ -96,7 +108,7 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
 
-          <div className="flex flex-wrap gap-6 text-gray-400">
+          <div className="flex flex-wrap gap-6 text-gray-400 mb-2">
             <a
               href="https://github.com/pherpher089"
               target="_blank"
@@ -105,8 +117,9 @@ export default function Home() {
             >
               GitHub
             </a>
+
             <a
-              href="mailto:christutor089@gmail.com"
+              href="mailto:christutor089@gmail.com?subject=Resume%20Request"
               className="hover:text-white transition"
             >
               Request Resume
@@ -118,10 +131,11 @@ export default function Home() {
             >
               Email
             </a>
-            <p className="text-xs text-gray-500 mt-2">
-              (or copy: christutor089@gmail.com)
-            </p>
           </div>
+
+          <p className="text-xs text-gray-500">
+            Or copy: christutor089@gmail.com
+          </p>
         </section>
       </div>
     </main>
