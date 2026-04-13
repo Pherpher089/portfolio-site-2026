@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function WorkOrderDesk() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-12">
       <div className="max-w-3xl mx-auto">
-        <a href="/" className="text-sm text-gray-400 hover:text-white">
+        <Link href="/" className="text-sm text-gray-400 hover:text-white">
           ← Back to home
-        </a>
+        </Link>
 
         <header className="mt-6 mb-12">
           <h1 className="text-4xl font-bold mb-4">Work Order Desk</h1>

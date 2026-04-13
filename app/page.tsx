@@ -70,14 +70,7 @@ export default function Home() {
               GitHub
             </a>
 
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition"
-            >
-              Resume
-            </a>
+            <a href="mailto:christutor089@gmail.com">Request Resume</a>
 
             <a
               href="mailto:christutor089@gmail.com"
