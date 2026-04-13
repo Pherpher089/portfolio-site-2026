@@ -40,6 +40,39 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="mb-20">
+          <h2 className="text-2xl font-semibold mb-6">Game Development</h2>
+
+          <div className="border border-gray-800 p-6 rounded-xl">
+            <h3 className="text-xl font-semibold mb-2">
+              Wilds of the Realmwalker
+            </h3>
+
+            <p className="text-gray-400 mb-4 leading-7">
+              A cooperative survival game currently in development and available
+              as a public demo on Steam. Built using Unity and Photon
+              networking, with a focus on multiplayer systems, gameplay loops,
+              and continuous iteration through player feedback.
+            </p>
+
+            <ul className="list-disc pl-6 text-gray-400 space-y-2 mb-4">
+              <li>Implemented multiplayer systems using Photon PUN</li>
+              <li>
+                Designed and iterated on core gameplay loops and player
+                progression
+              </li>
+              <li>Shipped a public demo and gathered real player feedback</li>
+              <li>Continuously improved performance, UI, and game systems</li>
+            </ul>
+
+            <a
+              href="https://store.steampowered.com/app/3800480/Wilds_of_the_Realmwalker/"
+              className="text-blue-400 hover:underline"
+            >
+              View Project →
+            </a>
+          </div>
+        </section>
 
         {/* About */}
         <section className="mb-20">
@@ -82,6 +115,9 @@ export default function Home() {
             >
               Email
             </a>
+            <p className="text-xs text-gray-500 mt-2">
+              (or copy: christutor089@gmail.com)
+            </p>
           </div>
         </section>
       </div>
