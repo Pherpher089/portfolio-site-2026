@@ -1,6 +1,9 @@
+import { Analytics } from "@vercel/analytics/next";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-12">
+      <Analytics />
       <div className="max-w-4xl mx-auto">
         {/* Hero */}
         <section className="mb-20">
