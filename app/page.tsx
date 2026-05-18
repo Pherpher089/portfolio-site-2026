@@ -47,6 +47,15 @@ export default function Home() {
                 >
                   GitHub →
                 </a>
+
+                <a
+                  href="https://work-order-desk-web.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  Live Demo →
+                </a>
               </div>
             </div>
           </div>
