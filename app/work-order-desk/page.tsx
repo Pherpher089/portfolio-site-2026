@@ -228,15 +228,22 @@ export default function WorkOrderDesk() {
               GitHub Repo Backend
             </a>
 
-            {/*when we go live */}
-            {/* <a
-              href="http://localhost:3000"
+            <a
+              href="https://work-order-desk-web.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white"
             >
               Live Demo
-            </a> */}
+            </a>
+            <a
+              href="https://work-order-desk-api.onrender.com/swagger/index.html"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white"
+            >
+              API Docs
+            </a>
           </div>
         </section>
       </div>

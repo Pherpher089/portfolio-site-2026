@@ -56,6 +56,15 @@ export default function Home() {
                 >
                   Live Demo →
                 </a>
+
+                <a
+                  href="https://work-order-desk-api.onrender.com/swagger/index.html"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  API Docs →
+                </a>
               </div>
             </div>
           </div>
